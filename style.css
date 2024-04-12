@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8ac5cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    height: 420px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+}
+nav img{
+    height: 120px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box-text{
+    text-align: center;
+    margin-top: 10px;
+}
+.box-text p{
+    margin-top: 10px;
+}
+.plan{
+    height: 45px;
+    width: 90%;
+    background-color: #bbe3eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.plan-img img{
+    height: 35px;
+    width: 35px;
+}
+
+.btn button{
+    background-color: rgb(37, 5, 126);
+    color: white;
+    height: 45px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgb(24, 28, 90);
+}
+.plan-cancel{
+    text-align: center;
+    margin-top: 20px;
+}
+.plan-cancel a{
+    color: black;
+    font-size: 1.1rem;
+}
